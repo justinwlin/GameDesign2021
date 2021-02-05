@@ -24,7 +24,7 @@ function draw() {
 
   textSize(30)
   text(words[indexText], centerx-300, centery+150);
-  
+  wordText = words[indexText]
   if(indexText == 0){
     
   } else if (indexText == 1){
